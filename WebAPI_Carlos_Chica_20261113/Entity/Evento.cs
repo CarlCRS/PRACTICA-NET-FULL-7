@@ -1,0 +1,13 @@
+﻿namespace WebAPI_Carlos_Chica_20261113.Entity
+{
+    public class Evento
+    {
+        public int Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string Descripcion { get; set; } = string.Empty;
+        public DateTime FechaInicio { get; set; }
+        public DateTime FechaFin { get; set; }
+        public string Ubicacion { get; set; } = string.Empty;
+        public int OrganizadorId { get; set; }
+    }
+}
